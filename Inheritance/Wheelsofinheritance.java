@@ -1,3 +1,5 @@
+/*Design a simple vehicle hierarchy with a base class 'Vehicle' and two subclasses 'Car' and 'Motorcycle'. The 'Vehicle' class should have properties 'brand' and 'year'. 'Car' should add a 'numDoors' property, while 'Motorcycle' should add a 'hasSidecar' property. Implement appropriate constructors and a 'displayInfo()' method for each class. Create instances based on user input and display their information. Input: Read three lines containing the vehicle type ("Car" or "Motorcycle"), brand, and year. For Car, also read the number of doors. For Motorcycle, read a boolean indicating if it has a sidecar. Output: Print the vehicle information using the displayInfo() method.*/
+
 import java.util.Scanner;
 
 public class Main {
